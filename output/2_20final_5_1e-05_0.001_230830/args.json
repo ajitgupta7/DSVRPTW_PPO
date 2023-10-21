@@ -1,0 +1,65 @@
+{
+    "config_file": null,
+    "verbose": true,
+    "gpu": true,
+    "seed": null,
+    "problem": "DSVRPTW",
+    "customer_count": 20,
+    "vehicle_count": 4,
+    "vehicle_capacity": 200,
+    "vehicle_speed": 1,
+    "horizon": 480,
+    "loc_range": [
+        0,
+        101
+    ],
+    "dem_range": [
+        5,
+        41
+    ],
+    "dur_range": [
+        10,
+        31
+    ],
+    "tw_ratio": 0.5,
+    "tw_range": [
+        30,
+        91
+    ],
+    "dod": [
+        0.0,
+        0.25,
+        0.5,
+        0.75
+    ],
+    "d_early_ratio": 0.5,
+    "pending_cost": 2,
+    "late_cost": 1,
+    "speed_var": 0.1,
+    "late_prob": 0.05,
+    "slow_down": 0.5,
+    "late_var": 0.2,
+    "model_size": 128,
+    "encoder_layer": 5,
+    "num_head": 8,
+    "ff_size_actor": 512,
+    "ff_size_critic": 512,
+    "tanh_xplor": 10,
+    "edge_embedding_dim": 64,
+    "greedy": false,
+    "learning_rate": 1e-05,
+    "ppo_epoch": 2,
+    "entropy_value": 0.001,
+    "epsilon_clip": 0.2,
+    "timestep": 1,
+    "epoch_count": 50,
+    "iter_count": 500,
+    "batch_size": 256,
+    "rate_decay": 0.96,
+    "max_grad_norm": 2,
+    "grad_norm_decay": null,
+    "test_batch_size": 128,
+    "output_dir": "./output/2_20final_5_1e-05_0.001_230830",
+    "checkpoint_period": 1,
+    "resume_state": null
+}
